@@ -14,18 +14,34 @@
 /* Global styles */
 
 body {
-    background-color: rgb(206, 245, 175);
-    color: #054224;
-    font-family: "Inter", sans-serif;
+    font-family: var(--primary-font);
 }
 
-h1 {
-    font-family: "Macondo", sans-serif;
+h1,
+h2,
+h3 {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
 }
+
+.sub-heading-color {
+    color: var(--highlight-color);
+}
+
+/* Navbar */
+
+.navbar {
+    background-color: var(--primary-color);
+}
+
+.navbar .logo {
+    width: 30px;
+}
+
 
 /* grid visualisation CSS for testing */
 
-.container,
+/* .container,
 .row {
     border: 2px solid black;
 }
@@ -33,4 +49,4 @@ h1 {
 .col-12 {
     border: 2px solid white;
     background-color: lightgray;
-}
+} */
