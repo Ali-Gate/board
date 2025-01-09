@@ -34,7 +34,7 @@ h3 {
     background-color: var(--primary-color);
 }
 
-.navbar .logo {
+#navbar .logo {
     width: 30px;
 }
 
